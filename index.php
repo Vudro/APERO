@@ -16,8 +16,7 @@ session_start()
 		
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" />
-		<script src="bootstrap\js\bootstrap.min.js" />
-		
+
     </head>
 
     <body>
@@ -43,6 +42,7 @@ session_start()
                         <?php include_once ('inc/footer.inc.php'); ?>
 			<p>Copyright - Tous droits réservés</p>
 		</footer>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>
 	
 </html>
