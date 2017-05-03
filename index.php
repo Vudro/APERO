@@ -1,5 +1,6 @@
 <?php 
-session_start() 
+session_start();
+include "config.php";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -21,28 +22,36 @@ session_start()
 
     <body>
         <div id="wrapper">
-        <!-- Corps de la page -->
-		<header>
-			<h1>Bienvenue sur le site interne de la Bourse aux livres </h1>
-		</header>
+            <!-- Corps de la page -->
+            <header>
+                <h1>Bienvenue sur le site interne de la Bourse aux livres </h1>
+            </header>
 		
-		<nav>
-			 <!-- Menu de navigation visible que lorce qu'on est connecter -->
-			 <?php  include_once('inc/menu.inc.php') ?>
-			 
-		</nav>
-		<section>
-			<aside>
-			
-			</aside>
-		</section>
+            <nav>
+                <!-- Menu de navigation visible que lorce qu'on est connecter -->
+                <?php  include_once('inc/menu.inc.php'); ?>
+            </nav>
+            <section>
+                <?php
+                !isset($_GET['page']) ? $page = null : $page = $_GET['page'];
+                switch ($page) {
+                    case 'adherent':
+                        include URI_INC . "adherent.php";
+                        break;
+                    default:
+                        break;
+                }
+                ?>
+            </section>
 		
         </div>
-		<footer>
-                        <?php include_once ('inc/footer.inc.php'); ?>
-			<p>Copyright - Tous droits réservés</p>
-		</footer>
+        <footer>
+            <?php include_once ('inc/footer.inc.php'); ?>
+            <p>Copyright - Tous droits réservés</p>
+        </footer>
+        <script src="inc/jquery.js"></script>
+
         <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>
-	
+
 </html>
