@@ -21,6 +21,7 @@ session_start()
 
     <body>
         <div id="wrapper">
+<!--            azeazeezaeea -->
         <!-- Corps de la page -->
 		<header>
 			<h1>Bienvenue sur le site interne de la Bourse aux livres </h1>
