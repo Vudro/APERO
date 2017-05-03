@@ -1,0 +1,1 @@
+<?php!isset($_REQUEST['a']) ? $_action = '' : $_action = $_REQUEST['a'];switch($_action) {	default:	    $creations = $DB->creationRead();        include URI_VUE . '/home/v_home.php';    break;}
