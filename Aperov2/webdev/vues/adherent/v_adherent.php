@@ -2,8 +2,9 @@
     <div class="row">
         <div class="col-12">
             <h1 class="text-center">Adherent</h1>
-            <p>Voici la présentation de mon travail.</p>
-            <p>Voici la recette du papier maché:</p>
+            <button class="button-primary" type="button">Ajouter adhérent</button>
+            <button class="button-primary" type="button">Supprimer adhérent</button>
+            <button class="button-primary" type="button">Modifier adhérent</button>
         </div>
     </div>
 </div>
