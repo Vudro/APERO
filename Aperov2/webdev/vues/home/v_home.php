@@ -1,6 +1,6 @@
 <div class="row">
     <div class="twelve columns">
-        <h1 class="text-center">Bienvenue sur mon site</h1>
+        <h1 class="text-center">Bienvenue sur le logiciel Apero</h1>
     </div>
 </div>
 
