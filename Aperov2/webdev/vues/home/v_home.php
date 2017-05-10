@@ -5,17 +5,15 @@
 </div>
 
 <div class="row">
-    <div class="eight columns">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta semper urna, ornare faucibus velit facilisis vel. Curabitur venenatis nulla vel magna pretium at fringilla felis pharetra. Morbi vehicula sem ut nisl condimentum sed consectetur purus pulvinar. Fusce urna enim, posuere quis egestas id, cursus eu leo. Morbi ornare tempus lacus eget accumsan. Mauris turpis nisi, sodales eget vestibulum sit amet, scelerisque et lectus. Donec quis nisl ut libero tristique adipiscing. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In consectetur neque vel eros suscipit non semper quam ultrices. Praesent sodales condimentum sollicitudin. Nam molestie euismod diam a mattis. Nam vitae odio augue, nec venenatis felis. Vestibulum nisi justo, elementum id sodales in, fringilla vitae augue.</p>
-    </div>
-    <div class="four columns">
-        <img class="img-responsive" src="http://placehold.it/350x150">
-    </div>
-</div>
-
-<div class="row">
     <div class="twelve columns">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta semper urna, ornare faucibus velit facilisis vel. Curabitur venenatis nulla vel magna pretium at fringilla felis pharetra. Morbi vehicula sem ut nisl condimentum sed consectetur purus pulvinar. Fusce urna enim, posuere quis egestas id, cursus eu leo. Morbi ornare tempus lacus eget accumsan. Mauris turpis nisi, sodales eget vestibulum sit amet, scelerisque et lectus. Donec quis nisl ut libero tristique adipiscing. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In consectetur neque vel eros suscipit non semper quam ultrices. Praesent sodales condimentum sollicitudin. Nam molestie euismod diam a mattis. Nam vitae odio augue, nec venenatis felis. Vestibulum nisi justo, elementum id sodales in, fringilla vitae augue.</p>
+        <h4>Première période</h4>
+        <button class="button-primary" type="button">Ajouter un livre</button>
+        <button class="button-primary" type="button">Ajouter un livre à une classe</button>
+    </div>
+    <div class="twelve columns">
+        <h4>Seconde période</h4>
+        <button class="button-primary" type="button">Ajouter un livre</button>
+        <button class="button-primary" type="button">Ajouter un livre à une classe</button>
     </div>
 </div>
 
