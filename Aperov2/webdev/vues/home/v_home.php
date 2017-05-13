@@ -12,9 +12,9 @@
     </div>
     <div class="twelve columns">
         <h4>Seconde période</h4>
-        <a href="?c=famille"> <button class="button-primary" type="button">Ajouter une famille</button></a>
-        <a href="?c=enfant"> <button class="button-primary" type="button">Ajouter un enfant</button></a>
-        <button class="button-primary" type="button">Affecter un exemplaire à une famille</button>
+        <a href="?c=famille"><button class="button-primary" type="button">Ajouter une famille</button></a>
+        <a href="?c=enfant"><button class="button-primary" type="button">Ajouter un enfant</button></a>
+        <a href="?c=exemplaire"><button class="button-primary" type="button">Affecter un exemplaire à une famille</button></a>
         <button class="button-primary" type="button">Affichage des ventes</button>
     </div>
     <div class="twelve columns">

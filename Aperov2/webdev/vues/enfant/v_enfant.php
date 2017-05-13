@@ -1,8 +1,9 @@
-<h1 class="text-center">Ajouter une enfant</h1>
-<p>Ajouter ici une enfant.</p>
+<h1 class="text-center">Ajouter un enfant</h1>
 <div class="content">
     <div class="row">
         <div class="col-4">
+            <button class="button-primary" type="button">Affecter un enfant à une famille</button>
+            <h4>Ajouter un nouvel enfant :</h4>
             <label for="nomEnfant">Nom de la famille :</label>
             <input class="u-full-width" id="nomEnfant" name="nomEnfant" value="<?php if(isset($_POST['nomEnfant'])){ echo $_POST['nomEnfant']; } ?>">
             <label for="prenomEnfant">Prenom de la famille :</label>
