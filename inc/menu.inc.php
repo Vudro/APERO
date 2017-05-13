@@ -8,7 +8,7 @@
             <a href="?">Accueil</a>
         </li>
         <li>
-            <a href="?page=adherent">Adhérents</a>
+            <a href="?page=famille">Adhérents</a>
         </li>
         <li>
             <a href="ajoutEF.php">Articles</a>

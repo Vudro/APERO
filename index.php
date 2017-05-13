@@ -35,8 +35,8 @@ include "config.php";
                 <?php
                 !isset($_GET['page']) ? $page = null : $page = $_GET['page'];
                 switch ($page) {
-                    case 'adherent':
-                        include URI_INC . "adherent.php";
+                    case 'famille':
+                        include URI_INC . "famille.php";
                         break;
                     default:
                         break;

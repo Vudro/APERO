@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c94bb5-7262-4c3e-bf17-3663c6cb115a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterLIvre.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aperov2/webdev/controls/c_livre.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/affecterLivre/v_affecterLivre.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/enfant/v_enfant.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/famille/v_famille.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/livre/v_livre.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aperov2/webdev/vues/adherent/v_adherent.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Aperov2/webdev/controls/c_adherent.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/controls/c_famille.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/inc/structure/footer.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/inc/structure/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/config.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/controls/c_home.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/controls/c_home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/inc/structure/header.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/inc/structure/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/index.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/models/m_db.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/models/m_db.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/vues/home/v_home.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/home/v_home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/menu.inc.php" afterPath="$PROJECT_DIR$/inc/menu.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,19 +36,41 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aperov2/webdev/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="c_adherent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_adherent.php">
+      <file leaf-file-name="c_famille.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_famille.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="v_famille.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/famille/v_famille.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="55" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+              <folding>
+                <marker date="1494683455867" expanded="true" signature="1529:1562" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,83 +78,28 @@
       <file leaf-file-name="v_home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/home/v_home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/inc/structure/footer.php">
+      <file leaf-file-name="v_enfant.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/enfant/v_enfant.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-              <folding>
-                <element signature="e#276#282#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="v_evenement-atelier.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/evenement-atelier/v_evenement-atelier.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="v_adherent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/adherent/v_adherent.php">
+      <file leaf-file-name="v_affecterLivre.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/affecterLivre/v_affecterLivre.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m_db.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/models/m_db.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="167" column="21" lean-forward="false" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="21" />
-              <folding>
-                <marker date="1494402832245" expanded="true" signature="462:574" ph="SELECT count... account" />
-                <marker date="1494402832245" expanded="true" signature="1413:1574" ph="INSERT INTO `account`... " />
-                <marker date="1494402832245" expanded="true" signature="1693:1732" ph="SELECT * FRO... account" />
-                <marker date="1494402832245" expanded="true" signature="1828:1886" ph="SELECT * FRO... account" />
-                <marker date="1494402832245" expanded="true" signature="2074:2107" ph="DELETE FROM " />
-                <marker date="1494402832245" expanded="true" signature="2515:2686" ph="INSERT INTO `blog`... " />
-                <marker date="1494402832245" expanded="true" signature="2802:2838" ph="SELECT * FRO... blog" />
-                <marker date="1494402832245" expanded="true" signature="2934:2989" ph="SELECT * FRO... blog" />
-                <marker date="1494402832245" expanded="true" signature="3171:3201" ph="DELETE FROM " />
-                <marker date="1494402832245" expanded="true" signature="3538:3672" ph="INSERT INTO `contact`... " />
-                <marker date="1494402832245" expanded="true" signature="3791:3830" ph="SELECT * FRO... contact" />
-                <marker date="1494402832245" expanded="true" signature="3926:3984" ph="SELECT * FRO... contact" />
-                <marker date="1494402832245" expanded="true" signature="4172:4205" ph="DELETE FROM " />
-                <marker date="1494402832245" expanded="true" signature="4674:4876" ph="INSERT INTO `creation`... " />
-                <marker date="1494402832245" expanded="true" signature="5112:5141" ph="SELECT * FRO... creation" />
-                <marker date="1494402832245" expanded="true" signature="5251:5299" ph="SELECT * FRO... creation" />
-                <marker date="1494402832245" expanded="true" signature="5551:5660" ph="UPDATE `crea... " />
-                <marker date="1494402832245" expanded="true" signature="5847:5881" ph="DELETE FROM " />
-                <marker date="1494402832245" expanded="true" signature="6332:6540" ph="INSERT INTO `evenement`... " />
-                <marker date="1494402832245" expanded="true" signature="6657:6698" ph="SELECT * FRO... evenement" />
-                <marker date="1494402832245" expanded="true" signature="6794:6854" ph="SELECT * FRO... evenement" />
-                <marker date="1494402832245" expanded="true" signature="7038:7073" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="c_home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="51">
+              <caret line="3" column="56" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -128,19 +108,41 @@
       <file leaf-file-name="db.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aperov2/webdev/conception/db.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="191">
+              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/config.php">
+      <file leaf-file-name="v_livre.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/livre/v_livre.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="68">
+              <caret line="4" column="137" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="137" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m_db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/models/m_db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="53" column="90" lean-forward="false" selection-start-line="53" selection-start-column="90" selection-end-line="53" selection-end-column="90" />
+              <folding>
+                <marker date="1494682636196" expanded="true" signature="791:935" ph="SELECT Enfan... Famille" />
+                <marker date="1494682636196" expanded="true" signature="1016:1168" ph="SELECT Enfan... Classe" />
+                <marker date="1494682636196" expanded="true" signature="1256:1283" ph="SELECT * FRO... etablissement" />
+                <marker date="1494682636196" expanded="true" signature="1369:1430" ph="SELECT * FRO... classe" />
+                <marker date="1494682636196" expanded="true" signature="1512:1533" ph="SELECT * FRO... matiere" />
+                <marker date="1494682636196" expanded="true" signature="1614:1634" ph="SELECT * FRO... classe" />
+                <marker date="1494682636196" expanded="true" signature="1714:1797" ph="SELECT Livre... Livre" />
+                <marker date="1494682636196" expanded="true" signature="1881:2314" ph="SELECT Famil... Livre" />
+                <marker date="1494682636196" expanded="true" signature="2396:2742" ph="SELECT Famil... Livre" />
+                <marker date="1494682636196" expanded="true" signature="2826:3243" ph="SELECT Livre... Livre" />
+                <marker date="1494682636196" expanded="true" signature="3325:3469" ph="SELECT Famil... Famille" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,7 +152,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>creationRead</find>
+      <find>adherent</find>
+      <find>famille</find>
+      <find>Famille</find>
     </findStrings>
+    <replaceStrings>
+      <replace>famille</replace>
+      <replace>enfant</replace>
+      <replace>Enfant</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\maxime\Desktop\UwAmp\www\apero\APERO\Aperov2\webdev\vues\enfant</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -162,17 +175,26 @@
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/inc/menu.inc.php" />
         <option value="$PROJECT_DIR$/inc/adherent.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/Aperov2/webdev/index.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/vues/presentation/v_presentation.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_presentation.php" />
-        <option value="$PROJECT_DIR$/Aperov2/webdev/vues/adherent/v_adherent.php" />
-        <option value="$PROJECT_DIR$/Aperov2/webdev/inc/structure/header.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/conception/db.sql" />
-        <option value="$PROJECT_DIR$/Aperov2/webdev/models/m_db.php" />
-        <option value="$PROJECT_DIR$/Aperov2/webdev/config.php" />
-        <option value="$PROJECT_DIR$/Aperov2/webdev/vues/home/v_home.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/inc/structure/footer.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/config.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/vues/livre/v_livre.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_livre.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_home.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterLIvre.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/models/m_db.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/vues/affecterLivre/v_affecterLivre.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/vues/adherent/v_adherent.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/vues/home/v_home.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_adherent.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_famille.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/index.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/inc/structure/header.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/vues/famille/v_famille.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/vues/enfant/v_enfant.php" />
       </list>
     </option>
   </component>
@@ -185,7 +207,8 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1924" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -203,7 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,7 +279,59 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="livre" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APERO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APERO" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aperov2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webdev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vues" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APERO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APERO" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aperov2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webdev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vues" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famille" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,6 +383,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="enfant" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APERO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APERO" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aperov2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webdev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vues" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="contact" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -334,7 +435,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adherent" />
+              <option name="myItemId" value="affecterLivre" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,20 +555,20 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Aperov2/webdev/vues/enfant" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\maxime\Desktop\UwAmp\www\apero" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\maxime\Desktop\UwAmp\www\apero\APERO\test2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maxime\Desktop\UwAmp\www\apero" />
     </key>
   </component>
   <component name="RunManager">
@@ -543,25 +644,26 @@
       <workItem from="1493709746299" duration="285000" />
       <workItem from="1493724802674" duration="1648000" />
       <workItem from="1493810755419" duration="2988000" />
-      <workItem from="1494398299963" duration="4939000" />
+      <workItem from="1494398299963" duration="5069000" />
+      <workItem from="1494674229905" duration="10068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10163000" />
+    <option name="totallyTimeSpent" value="20361000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1924" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18347639" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18443497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3322185" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -584,12 +686,104 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_famille.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/home/v_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/inc/structure/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/evenement-atelier/v_evenement-atelier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/famille/v_famille.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/models/m_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2839">
+          <caret line="167" column="21" lean-forward="false" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="21" />
+          <folding>
+            <marker date="1494682636196" expanded="true" signature="791:935" ph="SELECT Enfan... Famille" />
+            <marker date="1494682636196" expanded="true" signature="1016:1168" ph="SELECT Enfan... Classe" />
+            <marker date="1494682636196" expanded="true" signature="1256:1283" ph="SELECT * FRO... etablissement" />
+            <marker date="1494682636196" expanded="true" signature="1369:1430" ph="SELECT * FRO... classe" />
+            <marker date="1494682636196" expanded="true" signature="1512:1533" ph="SELECT * FRO... matiere" />
+            <marker date="1494682636196" expanded="true" signature="1614:1634" ph="SELECT * FRO... classe" />
+            <marker date="1494682636196" expanded="true" signature="1714:1797" ph="SELECT Livre... Livre" />
+            <marker date="1494682636196" expanded="true" signature="1881:2314" ph="SELECT Famil... Livre" />
+            <marker date="1494682636196" expanded="true" signature="2396:2742" ph="SELECT Famil... Livre" />
+            <marker date="1494682636196" expanded="true" signature="2826:3243" ph="SELECT Livre... Livre" />
+            <marker date="1494682636196" expanded="true" signature="3325:3469" ph="SELECT Famil... Famille" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/conception/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1493820640423" expanded="true" signature="1531:1564" ph="..." />
+            <marker date="1494683455867" expanded="true" signature="1529:1562" ph="..." />
           </folding>
         </state>
       </provider>
@@ -614,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +816,7 @@
         <state relative-caret-position="510">
           <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
           <folding>
-            <marker date="1493820640423" expanded="true" signature="1531:1564" ph="..." />
+            <marker date="1494683455867" expanded="true" signature="1529:1562" ph="..." />
           </folding>
         </state>
       </provider>
@@ -640,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,21 +841,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/jquery.js" />
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <marker date="1493820640423" expanded="true" signature="1531:1564" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -684,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,33 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1486713544026" expanded="true" signature="366:384" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/inc/structure/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/contact/v_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_adherent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,73 +898,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/adherent/v_adherent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/conception/db.sql">
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/inc/structure/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_home.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/models/m_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="167" column="21" lean-forward="false" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="21" />
-          <folding>
-            <marker date="1494402832245" expanded="true" signature="462:574" ph="SELECT count... account" />
-            <marker date="1494402832245" expanded="true" signature="1413:1574" ph="INSERT INTO `account`... " />
-            <marker date="1494402832245" expanded="true" signature="1693:1732" ph="SELECT * FRO... account" />
-            <marker date="1494402832245" expanded="true" signature="1828:1886" ph="SELECT * FRO... account" />
-            <marker date="1494402832245" expanded="true" signature="2074:2107" ph="DELETE FROM " />
-            <marker date="1494402832245" expanded="true" signature="2515:2686" ph="INSERT INTO `blog`... " />
-            <marker date="1494402832245" expanded="true" signature="2802:2838" ph="SELECT * FRO... blog" />
-            <marker date="1494402832245" expanded="true" signature="2934:2989" ph="SELECT * FRO... blog" />
-            <marker date="1494402832245" expanded="true" signature="3171:3201" ph="DELETE FROM " />
-            <marker date="1494402832245" expanded="true" signature="3538:3672" ph="INSERT INTO `contact`... " />
-            <marker date="1494402832245" expanded="true" signature="3791:3830" ph="SELECT * FRO... contact" />
-            <marker date="1494402832245" expanded="true" signature="3926:3984" ph="SELECT * FRO... contact" />
-            <marker date="1494402832245" expanded="true" signature="4172:4205" ph="DELETE FROM " />
-            <marker date="1494402832245" expanded="true" signature="4674:4876" ph="INSERT INTO `creation`... " />
-            <marker date="1494402832245" expanded="true" signature="5112:5141" ph="SELECT * FRO... creation" />
-            <marker date="1494402832245" expanded="true" signature="5251:5299" ph="SELECT * FRO... creation" />
-            <marker date="1494402832245" expanded="true" signature="5551:5660" ph="UPDATE `crea... " />
-            <marker date="1494402832245" expanded="true" signature="5847:5881" ph="DELETE FROM " />
-            <marker date="1494402832245" expanded="true" signature="6332:6540" ph="INSERT INTO `evenement`... " />
-            <marker date="1494402832245" expanded="true" signature="6657:6698" ph="SELECT * FRO... evenement" />
-            <marker date="1494402832245" expanded="true" signature="6794:6854" ph="SELECT * FRO... evenement" />
-            <marker date="1494402832245" expanded="true" signature="7038:7073" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="191">
+          <caret line="1567" column="0" lean-forward="false" selection-start-line="1567" selection-start-column="0" selection-end-line="1567" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -825,21 +922,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/home/v_home.php">
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/contact/v_index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/inc/structure/footer.php">
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_livre.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterLIvre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/models/m_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="53" column="90" lean-forward="false" selection-start-line="53" selection-start-column="90" selection-end-line="53" selection-end-column="90" />
           <folding>
-            <element signature="e#276#282#0#HTML" expanded="true" />
+            <marker date="1494682636196" expanded="true" signature="791:935" ph="SELECT Enfan... Famille" />
+            <marker date="1494682636196" expanded="true" signature="1016:1168" ph="SELECT Enfan... Classe" />
+            <marker date="1494682636196" expanded="true" signature="1256:1283" ph="SELECT * FRO... etablissement" />
+            <marker date="1494682636196" expanded="true" signature="1369:1430" ph="SELECT * FRO... classe" />
+            <marker date="1494682636196" expanded="true" signature="1512:1533" ph="SELECT * FRO... matiere" />
+            <marker date="1494682636196" expanded="true" signature="1614:1634" ph="SELECT * FRO... classe" />
+            <marker date="1494682636196" expanded="true" signature="1714:1797" ph="SELECT Livre... Livre" />
+            <marker date="1494682636196" expanded="true" signature="1881:2314" ph="SELECT Famil... Livre" />
+            <marker date="1494682636196" expanded="true" signature="2396:2742" ph="SELECT Famil... Livre" />
+            <marker date="1494682636196" expanded="true" signature="2826:3243" ph="SELECT Livre... Livre" />
+            <marker date="1494682636196" expanded="true" signature="3325:3469" ph="SELECT Famil... Famille" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/affecterLivre/v_affecterLivre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="56" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/livre/v_livre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="137" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="137" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <marker date="1494683455867" expanded="true" signature="1529:1562" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/inc/structure/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="106" lean-forward="false" selection-start-line="35" selection-start-column="106" selection-end-line="35" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_famille.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/home/v_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/famille/v_famille.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="55" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/conception/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/enfant/v_enfant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
