@@ -8,15 +8,13 @@
     <label for="prixNeuf">Prix neuf du livre :</label>
     <input class="u-full-width" id="prixNeuf" name="prixNeuf" value="<?php if(isset($_POST['prixNeuf'])){ echo $_POST['prixNeuf']; } ?>">
     <label for="matiere">Matière :</label>
-
-    <select name="matiere">
+    <select name="matiere" value="<?php if(isset($_POST['matiere'])){ echo $_POST['matiere']; } ?>">
         <option selected="selected">Selectionnez</option>
         <?php foreach ($matierre as $k => $d) { ?>
         <option value="<?php echo $d['nommatiere']; ?>"><?php echo $d['nommatiere']; ?></option>
         <?php } ?>
     </select>
     <br>
-    <button class="button-primary" type="button">Ajouter matière</button>
-    <button class="button-primary" type="button">Supprimer matière</button>
     <button class="button-primary" type="submit">Envoyer</button>
+    <a href="?c=matiere"> <button class="button-primary" type="button">Ajouter matière</button></a>
 </form>

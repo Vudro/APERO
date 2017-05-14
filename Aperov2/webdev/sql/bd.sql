@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.6.4
--- https://www.phpmyadmin.net/
+-- version 4.5.4.1
+-- http://www.phpmyadmin.net
 --
--- Host: localhost:3306
--- Generation Time: Jan 31, 2017 at 03:04 PM
--- Server version: 10.1.9-MariaDB-log
--- PHP Version: 7.0.12
+-- Client :  localhost
+-- Généré le :  Mer 10 Mai 2017 à 09:24
+-- Version du serveur :  5.7.11
+-- Version de PHP :  5.6.18
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,194 +17,212 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `webdev`
+-- Base de données :  `apero`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `account`
+-- Structure de la table `classe`
 --
 
-CREATE TABLE `account` (
-  `id` int(11) NOT NULL,
-  `username` varchar(100) NOT NULL,
-  `password` text,
-  `email` varchar(255) DEFAULT NULL,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `status` tinyint(1) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `account`
---
-
-INSERT INTO `account` (`id`, `username`, `password`, `email`, `created_at`, `updated_at`, `status`) VALUES
-(8520, 'test', 'test', 'test@test.fr', '2017-01-16 23:00:00', '2017-01-16 23:00:00', 2);
+CREATE TABLE `classe` (
+  `idc` int(11) NOT NULL,
+  `idetablissement` int(11) DEFAULT NULL,
+  `niveauclasse` varchar(20) DEFAULT NULL,
+  `section` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `blog`
+-- Structure de la table `enfant`
 --
 
-CREATE TABLE `blog` (
-  `id` int(11) NOT NULL,
-  `title` varchar(255) DEFAULT NULL,
-  `description` text,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `status` tinyint(1) DEFAULT NULL,
-  `id_account` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `contact`
---
-
-CREATE TABLE `contact` (
-  `id` int(11) NOT NULL,
-  `email` text NOT NULL,
-  `message` text NOT NULL,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `status` tinyint(1) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `contact`
---
-
-INSERT INTO `contact` (`id`, `email`, `message`, `created_at`, `updated_at`, `status`) VALUES
-(12, 'chaussure@truc.fr', 'je suis lassé', '2017-01-17 23:00:00', '2017-01-17 23:00:00', 2),
-(13, 'charlie@truc.fr', 'Je suis la', '2017-01-17 23:00:00', '2017-01-17 23:00:00', 1),
-(14, 'pierre@truc.fr', 'BOnjour ca roule ?', '2017-01-17 23:00:00', '2017-01-17 23:00:00', 2);
+CREATE TABLE `enfant` (
+  `idenfant` int(11) NOT NULL,
+  `idfamille` int(11) DEFAULT NULL,
+  `idc` int(11) DEFAULT NULL,
+  `prenomenfant` varchar(20) DEFAULT NULL,
+  `classeenfant` varchar(10) DEFAULT NULL,
+  `nomenfant` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `creation`
+-- Structure de la table `etablissement`
 --
 
-CREATE TABLE `creation` (
-  `id` int(11) NOT NULL,
-  `name` varchar(255) DEFAULT NULL,
-  `description` text,
-  `img_url` text,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `status` tinyint(1) DEFAULT NULL,
-  `id_account` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE `etablissement` (
+  `idetablissement` int(11) NOT NULL,
+  `nometablissement` varchar(50) DEFAULT NULL,
+  `teletablissement` varchar(15) DEFAULT NULL,
+  `adresseetablissement` varchar(50) DEFAULT NULL,
+  `cpetablissement` int(11) DEFAULT NULL,
+  `villeetablissement` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `evenement`
+-- Structure de la table `etat`
 --
 
-CREATE TABLE `evenement` (
-  `id` int(11) NOT NULL,
-  `title` text,
-  `description` text,
-  `img_url` text,
-  `date` timestamp NULL DEFAULT NULL,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  `status` tinyint(1) DEFAULT NULL,
-  `id_account` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE `etat` (
+  `nometat` varchar(20) NOT NULL,
+  `decote` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
 
 --
--- Indexes for dumped tables
+-- Structure de la table `exemplaire`
 --
 
---
--- Indexes for table `account`
---
-ALTER TABLE `account`
-  ADD PRIMARY KEY (`id`);
+CREATE TABLE `exemplaire` (
+  `idexemplaire` int(11) NOT NULL,
+  `nometat` varchar(20) DEFAULT NULL,
+  `idfamille` int(11) DEFAULT NULL,
+  `id_livre` int(11) DEFAULT NULL,
+  `idfamille_acheter` int(11) DEFAULT NULL,
+  `exemplaireetat` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
 
 --
--- Indexes for table `blog`
---
-ALTER TABLE `blog`
-  ADD PRIMARY KEY (`id`,`id_account`),
-  ADD KEY `fk_blog_account1_idx` (`id_account`);
-
---
--- Indexes for table `contact`
---
-ALTER TABLE `contact`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `creation`
---
-ALTER TABLE `creation`
-  ADD PRIMARY KEY (`id`,`id_account`),
-  ADD KEY `fk_creation_account1_idx` (`id_account`);
-
---
--- Indexes for table `evenement`
---
-ALTER TABLE `evenement`
-  ADD PRIMARY KEY (`id`,`id_account`),
-  ADD KEY `fk_evenement_account1_idx` (`id_account`);
-
---
--- AUTO_INCREMENT for dumped tables
+-- Structure de la table `famille`
 --
 
+CREATE TABLE `famille` (
+  `idfamille` int(11) NOT NULL,
+  `nomfamille` varchar(20) DEFAULT NULL,
+  `adressefamille` varchar(50) DEFAULT NULL,
+  `cpfamille` int(11) DEFAULT NULL,
+  `villefamille` varchar(50) DEFAULT NULL,
+  `telfamille` varchar(15) DEFAULT NULL,
+  `mailfamille` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
 --
--- AUTO_INCREMENT for table `account`
+-- Structure de la table `livre`
 --
-ALTER TABLE `account`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8521;
+
+CREATE TABLE `livre` (
+  `id_livre` int(11) NOT NULL,
+  `idc` int(11) DEFAULT NULL,
+  `nommatiere` varchar(20) DEFAULT NULL,
+  `nomlivre` varchar(50) DEFAULT NULL,
+  `editionlivre` varchar(50) DEFAULT NULL,
+  `prineuf` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
 --
--- AUTO_INCREMENT for table `blog`
+-- Structure de la table `matiere`
 --
-ALTER TABLE `blog`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+CREATE TABLE `matiere` (
+  `nommatiere` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 --
--- AUTO_INCREMENT for table `contact`
---
-ALTER TABLE `contact`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
---
--- AUTO_INCREMENT for table `creation`
---
-ALTER TABLE `creation`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
---
--- AUTO_INCREMENT for table `evenement`
---
-ALTER TABLE `evenement`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
---
--- Constraints for dumped tables
+-- Index pour les tables exportées
 --
 
 --
--- Constraints for table `blog`
+-- Index pour la table `classe`
 --
-ALTER TABLE `blog`
-  ADD CONSTRAINT `fk_blog_account1` FOREIGN KEY (`id_account`) REFERENCES `account` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+ALTER TABLE `classe`
+  ADD PRIMARY KEY (`idc`),
+  ADD KEY `idetablissement` (`idetablissement`);
 
 --
--- Constraints for table `creation`
+-- Index pour la table `enfant`
 --
-ALTER TABLE `creation`
-  ADD CONSTRAINT `fk_creation_account1` FOREIGN KEY (`id_account`) REFERENCES `account` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+ALTER TABLE `enfant`
+  ADD PRIMARY KEY (`idenfant`),
+  ADD KEY `idfamille` (`idfamille`),
+  ADD KEY `idc` (`idc`);
 
 --
--- Constraints for table `evenement`
+-- Index pour la table `etablissement`
 --
-ALTER TABLE `evenement`
-  ADD CONSTRAINT `fk_evenement_account1` FOREIGN KEY (`id_account`) REFERENCES `account` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+ALTER TABLE `etablissement`
+  ADD PRIMARY KEY (`idetablissement`);
+
+--
+-- Index pour la table `etat`
+--
+ALTER TABLE `etat`
+  ADD PRIMARY KEY (`nometat`);
+
+--
+-- Index pour la table `exemplaire`
+--
+ALTER TABLE `exemplaire`
+  ADD PRIMARY KEY (`idexemplaire`),
+  ADD KEY `nometat` (`nometat`),
+  ADD KEY `idfamille` (`idfamille`),
+  ADD KEY `id_livre` (`id_livre`),
+  ADD KEY `idfamille_acheter` (`idfamille_acheter`);
+
+--
+-- Index pour la table `famille`
+--
+ALTER TABLE `famille`
+  ADD PRIMARY KEY (`idfamille`);
+
+--
+-- Index pour la table `livre`
+--
+ALTER TABLE `livre`
+  ADD PRIMARY KEY (`id_livre`),
+  ADD KEY `idc` (`idc`),
+  ADD KEY `nommatiere` (`nommatiere`);
+
+--
+-- Index pour la table `matiere`
+--
+ALTER TABLE `matiere`
+  ADD PRIMARY KEY (`nommatiere`);
+
+--
+-- Contraintes pour les tables exportées
+--
+
+--
+-- Contraintes pour la table `classe`
+--
+ALTER TABLE `classe`
+  ADD CONSTRAINT `classe_ibfk_1` FOREIGN KEY (`idetablissement`) REFERENCES `etablissement` (`idetablissement`);
+
+--
+-- Contraintes pour la table `enfant`
+--
+ALTER TABLE `enfant`
+  ADD CONSTRAINT `enfant_ibfk_1` FOREIGN KEY (`idfamille`) REFERENCES `famille` (`idfamille`),
+  ADD CONSTRAINT `enfant_ibfk_2` FOREIGN KEY (`idc`) REFERENCES `classe` (`idc`);
+
+--
+-- Contraintes pour la table `exemplaire`
+--
+ALTER TABLE `exemplaire`
+  ADD CONSTRAINT `exemplaire_ibfk_1` FOREIGN KEY (`nometat`) REFERENCES `etat` (`nometat`),
+  ADD CONSTRAINT `exemplaire_ibfk_2` FOREIGN KEY (`idfamille`) REFERENCES `famille` (`idfamille`),
+  ADD CONSTRAINT `exemplaire_ibfk_3` FOREIGN KEY (`id_livre`) REFERENCES `livre` (`id_livre`),
+  ADD CONSTRAINT `exemplaire_ibfk_4` FOREIGN KEY (`idfamille_acheter`) REFERENCES `famille` (`idfamille`);
+
+--
+-- Contraintes pour la table `livre`
+--
+ALTER TABLE `livre`
+  ADD CONSTRAINT `livre_ibfk_1` FOREIGN KEY (`idc`) REFERENCES `classe` (`idc`),
+  ADD CONSTRAINT `livre_ibfk_2` FOREIGN KEY (`nommatiere`) REFERENCES `matiere` (`nommatiere`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

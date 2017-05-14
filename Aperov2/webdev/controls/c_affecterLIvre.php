@@ -3,6 +3,14 @@
 
 switch($_action) {
     default:
+        if (isset($_POST['nivClasse']) && isset($_POST['section']) && isset($_POST['etablissement']) && isset($_POST['nomlivre'])) {
+            if (!empty($_POST['nivClasse']) && !empty($_POST['section']) && !empty($_POST['etablissement']) && !empty($_POST['nomlivre'])) {
+                $DB->affecterLivre($_POST['nivClasse'], $_POST['section'], $_POST['etablissement'], $_POST['nomlivre']);
+                add_message('success', 'Le formulaire a été envoyé');
+            } else {
+                add_message('danger', 'Un des champs est vide');
+            }
+        }
         $classe = $DB->afficherClasse();
         $etablissement = $DB->afficherEtablissement();
         $exemplaire = $DB->afficherLivreClasse();

@@ -15,10 +15,10 @@
         <a href="?c=famille"><button class="button-primary" type="button">Ajouter une famille</button></a>
         <a href="?c=enfant"><button class="button-primary" type="button">Ajouter un enfant</button></a>
         <a href="?c=exemplaire"><button class="button-primary" type="button">Affecter un exemplaire à une famille</button></a>
-        <button class="button-primary" type="button">Affichage des ventes</button>
+        <a href="?c=vente"><button class="button-primary" type="button">Affichage des ventes</button></a>
     </div>
     <div class="twelve columns">
         <h4>Troisième période</h4>
-        <button class="button-primary" type="button">Remboursement</button>
+        <a href="?c=remboursement"><button class="button-primary" type="button">Remboursement</button></a>
     </div>
 </div>

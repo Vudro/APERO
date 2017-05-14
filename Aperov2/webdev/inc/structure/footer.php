@@ -8,6 +8,5 @@
             </div>
         </div>
     </footer>
-<!--    --><?php //pr($_SESSION); ?>
 </body>
 </html>

@@ -1,5 +1,5 @@
-<h1 class="text-center">Affecter un exemplaire</h1>
-<p>Affecter ici un exemplaire à une famille.</p>
+<h1 class="text-center">Enregistrer un exemplaire</h1>
+<p>Enregistrer ici un exemplaire à une famille.</p>
 <div class="content">
     <div class="row">
         <div class="col-4">
@@ -59,9 +59,13 @@
             <label for="familleVente">Famille vendeuse :</label>
             <input class="u-full-width" id="familleVente" name="familleVente" value="requete à faire">
 
-            <br>
             <button class="button-primary" type="submit">Enregistrer</button>
-            <button class="button-primary" type="button">Liste des familles</button>
+
+            <h3>Achat de l'exemplaire par une famille :</h3>
+            <label for="familleAchat">Famille acheteuse :</label>
+            <input class="u-full-width" id="familleAchat" name="familleAchat" value="requete à faire">
+            <button class="button-primary" type="submit">Valider</button>
+
         </div>
     </div>
 </div>
