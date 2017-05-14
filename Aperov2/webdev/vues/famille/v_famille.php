@@ -1,5 +1,6 @@
 <h1 class="text-center">Ajouter une famille</h1>
 <p>Ajouter ici une famille.</p>
+<!--Formulaire pour récupérer les informations pour le controleur-->
 <form role="form" action="" method="post">
     <label for="nomFamille">Nom de la famille :</label>
     <input class="u-full-width" id="nomFamille" name="nomFamille" value="<?php if(isset($_POST['nomFamille'])){ echo $_POST['nomFamille']; } ?>">
@@ -13,6 +14,8 @@
     <input class="u-full-width" id="mailFamille" name="mailFamille" value="<?php if(isset($_POST['mailFamille'])){ echo $_POST['mailFamille']; } ?>">
     <label for="villeFamille">Ville de la famille :</label>
     <input class="u-full-width" id="villeFamille" name="villeFamille" value="<?php if(isset($_POST['villeFamille'])){ echo $_POST['villeFamille']; } ?>">
+
+    <br>
     <button class="button-primary" type="submit">Enregistrer</button>
     <a href="?c=listeFamille"><button class="button-primary" type="button">Liste des familles</button></a>
 </form>

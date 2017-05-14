@@ -3,7 +3,8 @@
 
 switch($_action) {
     default:
-        if (isset($_POST['classe']) && isset($_POST['section'])) {
+        //Récupération des informations de la vue associé
+    if (isset($_POST['classe']) && isset($_POST['section'])) {
             if (!empty($_POST['classe']) && !empty($_POST['section'])) {
                 $DB->ajoutClasse($_POST['classe'], $_POST['section']);
                 add_message('success', 'Le formulaire a été envoyé');

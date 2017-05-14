@@ -3,6 +3,7 @@
 
 switch($_action) {
     default:
+        //Récupération des informations de la vue associé
         if (isset($_POST['etablissement']) && isset($_POST['classe']) && isset($_POST['section'])) {
             if (!empty($_POST['etablissement']) && !empty($_POST['classe']) && !empty($_POST['section'])) {
                 $DB->affecterClasse($_POST['etablissement'], $_POST['classe'], $_POST['section']);
@@ -11,8 +12,11 @@ switch($_action) {
                 add_message('danger', 'Un des champs est vide');
             }
         }
+
+        //Récupération des informations pour remplir la liste déroulante
         $etablissement=$DB->afficherEtablissement();
         $classe=$DB->afficherClasseAffecter();
+
         include URI_VUE . '/affecterClasse/v_affecterClasse.php';
         break;
 }

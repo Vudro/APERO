@@ -3,6 +3,7 @@
 
 switch($_action) {
     default:
+        //Récupération des informations de la vue associé
         if (isset($_POST['etablissement'])) {
             if (!empty($_POST['etablissement'])) {
                 $DB->ajoutEtablissement($_POST['etablissement']);

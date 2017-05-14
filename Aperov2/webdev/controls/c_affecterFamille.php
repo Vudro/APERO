@@ -4,9 +4,9 @@
 switch($_action) {
     default:
         //Récupération des informations de la vue associé
-        if (isset($_POST['enfant']) && isset($_POST['famille'])) {
-            if (!empty($_POST['enfant']) && !empty($_POST['famille'])) {
-                $DB->affecterEnfant($_POST['enfant'], $_POST['famille']);
+    if (isset($_POST['familleAchat']) && isset($_POST['exemplaire'])) {
+            if (!empty($_POST['familleAchat'])&& !empty($_POST['exemplaire'])) {
+                $DB->affecterExemplaire($_POST['nomLivre'], $_POST['exemplaire']);
                 add_message('success', 'Le formulaire a été envoyé');
             } else {
                 add_message('danger', 'Un des champs est vide');
@@ -14,9 +14,8 @@ switch($_action) {
         }
 
         //Récupération des informations pour remplir la liste déroulante
-        $enfant=$DB->afficherEnfant();
-        $famille=$DB->afficherFamille();
-
-        include URI_VUE . '/affecterEnfant/v_affecterEnfant.php';
+        $nomlivre = $DB->afficherLivreAchat();
+        $familleAchat = $DB->afficherFamille();
+        include URI_VUE . '/affecterFamille/v_affecterFamile.php';
         break;
 }

@@ -3,6 +3,7 @@
 
 switch($_action) {
     default:
+        //Récupération des informations de la vue associé
         if (isset($_POST['nomMatiere'])) {
             if (!empty($_POST['nomMatiere'])) {
                 $DB->ajoutMatiere($_POST['nomMatiere']);

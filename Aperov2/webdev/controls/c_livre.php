@@ -3,6 +3,7 @@
 
 switch($_action) {
     default:
+        //Récupération des informations de la vue associé
         if (isset($_POST['nomLivre']) && isset($_POST['editionLivre']) && isset($_POST['prixNeuf']) && isset($_POST['matiere'])) {
             if (!empty($_POST['nomLivre']) && !empty($_POST['editionLivre']) && !empty($_POST['prixNeuf']) && !empty($_POST['matiere'])) {
                 $DB->ajoutLivre($_POST['nomLivre'], $_POST['editionLivre'], $_POST['prixNeuf'], $_POST['matiere']);
@@ -11,6 +12,8 @@ switch($_action) {
                 add_message('danger', 'Un des champs est vide');
             }
         }
+
+        //Récupération des informations pour remplir la liste déroulante
         $matierre = $DB->afficherMatiere();
         include URI_VUE . '/livre/v_livre.php';
         break;

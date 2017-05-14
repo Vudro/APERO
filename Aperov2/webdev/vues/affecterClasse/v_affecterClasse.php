@@ -1,7 +1,9 @@
 <h1 class="text-center">Affecter une classe</h1>
 <p>Affecter une classe à une établissement.</p>
+<!--Formulaire pour récupérer les informations pour le controleur-->
 <form role="form" action="" method="post">
     <label for="etablissement">Nom de l'établissement :</label>
+<!--  Liste déroulante prenant les informations de la BDD de la table etablissement  -->
     <select name="etablissement" value="<?php if(isset($_POST['etablissement'])){ echo $_POST['etablissement']; } ?>">
         <option selected="selected">Selectionnez</option>
         <?php foreach ($etablissement as $k => $d) { ?>
@@ -10,6 +12,7 @@
     </select>
 
     <label for="classe">Classe :</label>
+    <!--  Liste déroulante prenant les informations de la BDD de la table classe  -->
     <select name="classe" value="<?php if(isset($_POST['classe'])){ echo $_POST['classe']; } ?>">
         <option selected="selected">Selectionnez</option>
         <?php foreach ($classe as $k => $d) { ?>
@@ -18,6 +21,7 @@
     </select>
 
     <label for="section">Section :</label>
+    <!--  Liste déroulante prenant les informations de la BDD de la table section -->
     <select name="section" value="<?php if(isset($_POST['section'])){ echo $_POST['section']; } ?>">
         <option selected="selected">Selectionnez</option>
         <?php foreach ($classe as $k => $d) { ?>

@@ -1,5 +1,7 @@
 <h1 class="text-center">Liste des familles</h1>
+<!--Formulaire pour récupérer les informations pour le controleur-->
 <form role="form" action="" method="post">
+<!--  Création d'un tableau pour afficher les familles et leur enfant avec les informations de la famille  -->
     <table>
         <tr>
             <td>Nom de famille</td>
@@ -13,6 +15,7 @@
             <td>classe Enfant(s)</td>
         </tr>
 
+<!--    Remplissage du tableau    -->
         <tbody>
         <?php foreach($listeFamille as $k => $d){ ?>
             <tr>
