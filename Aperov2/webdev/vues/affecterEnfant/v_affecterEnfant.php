@@ -23,4 +23,5 @@
     <br>
     <button class="button-primary" type="submit">Enregistrer</button>
     <a href="?c=enfant"><button class="button-primary" type="button">Retour</button></a>
+    <?php echo display_message(); ?>
 </form>

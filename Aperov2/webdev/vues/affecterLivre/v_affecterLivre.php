@@ -18,7 +18,7 @@
     <!--  Liste déroulante prenant les informations de la BDD de la table section -->
     <select name="section" value="<?php if(isset($_POST['section'])){ echo $_POST['section']; } ?>">
         <option selected="selected">Selectionnez</option>
-        <?php foreach ($classe as $k => $d) { ?>
+        <?php foreach ($section as $k => $d) { ?>
             <option value="<?php echo $d['section']; ?>"><?php echo $d['section']; ?></option>
         <?php } ?>
     </select>
@@ -45,4 +45,5 @@
     </select>
     <br>
     <button class="button-primary" type="submit">Enregistrer</button>
+    <?php echo display_message(); ?>
 </form>

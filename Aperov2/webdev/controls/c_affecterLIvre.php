@@ -15,6 +15,7 @@ switch($_action) {
 
         //Récupération des informations pour remplir la liste déroulante
         $classe = $DB->afficherClasse();
+        $section = $DB->afficherSection();
         $etablissement = $DB->afficherEtablissement();
         $exemplaire = $DB->afficherLivreClasse();
         

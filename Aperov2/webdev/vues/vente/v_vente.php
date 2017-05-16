@@ -11,6 +11,9 @@
         <?php } ?>
     </select>
 
+    <button class="button-primary" type="submit">Valider</button>
+    <?php if (isset($nom) && !empty($nom)){echo "Nom de famille sélectionné : $nom ";} ?>
+
     <label for="exemplaireAchat">Exemplaire acheté : ajouter condition sur famille sélectionné</label>
 <!--  Tableau permettant l'affichage de toutes les achats des familles
   Manque à récupérer l'id de la famille au dessus pour afficher les achats de la famille sélectionnée uniquement-->
@@ -21,12 +24,14 @@
         </tr>
 
         <tbody>
-        <?php foreach($exemplaireAchat as $k => $d){ ?>
-            <tr>
-                <td><?php echo $d['nomlivre']; ?></td>
-                <td><?php echo $d['prixneuf']; ?></td>
-            </tr>
-        <?php } ?>
+        <?php if (isset($nom) && !empty($nom)){
+        foreach($exemplaireAchat as $k => $d){ ?>
+        <tr>
+            <td><?php echo $d['nomlivre']; ?></td>
+            <td><?php $prix=$DB->prixExemplaire($d['nomlivre'], $d['nometat']);echo $prix; ?></td>
+            <?php }
+            } ?>
+        </tr>
         </tbody>
     </table>
 
@@ -40,12 +45,14 @@
         </tr>
 
         <tbody>
-        <?php foreach($exemplaireVente as $k => $d){ ?>
-            <tr>
-                <td><?php echo $d['nomlivre']; ?></td>
-                <td><?php echo $d['prixneuf']; ?></td>
-            </tr>
-        <?php } ?>
+        <?php if (isset($nom) && !empty($nom)){
+            foreach($exemplaireVente as $k => $d){ ?>
+                <tr>
+                    <td><?php echo $d['nomlivre']; ?></td>
+                    <td><?php $prix=$DB->prixExemplaire($d['nomlivre'], $d['nometat']);echo $prix; ?></td>
+                </tr>
+            <?php }
+        } ?>
         </tbody>
     </table>
 
@@ -59,13 +66,15 @@
         </tr>
 
         <tbody>
-        <?php foreach($exemplaireVendu as $k => $d){ ?>
-            <tr>
-                <td><?php echo $d['nomlivre']; ?></td>
-                <td><?php echo $d['prixneuf']; ?></td>
-            </tr>
-        <?php } ?>
+        <?php if (isset($nom) && !empty($nom)){
+            foreach($exemplaireVendu as $k => $d){ ?>
+                <tr>
+                    <td><?php echo $d['nomlivre']; ?></td>
+                    <td><?php $prix=$DB->prixExemplaire($d['nomlivre'], $d['nometat']);echo $prix; ?></td>
+                </tr>
+            <?php }
+        } ?>
         </tbody>
     </table>
-
+    <a href="?c=home"><button class="button-primary" type="button">Retour</button></a>
 </form>

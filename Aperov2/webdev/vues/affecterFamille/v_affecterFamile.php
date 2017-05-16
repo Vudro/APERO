@@ -11,7 +11,7 @@
         <?php } ?>
     </select>
 
-    <label for="exemplaire">Exemplaire : recupérer id livre pour requete</label>
+    <label for="exemplaire">Exemplaire :</label>
     <!--  Liste déroulante prenant les informations de la BDD de la table exemplaire  -->
     <select name="exemplaire" value="<?php if(isset($_POST['exemplaire'])){ echo $_POST['exemplaire']; } ?>">
         <option selected="selected">Selectionnez</option>
@@ -19,7 +19,18 @@
             <option value="<?php echo $d['nomlivre']; ?>"><?php echo $d['nomlivre']; ?></option>
         <?php } ?>
     </select>
+
+    <label for="decote">Etat :</label>
+    <!--  Liste déroulante prenant les informations de la BDD de la table exemplaire  -->
+    <select name="decote" value="<?php if(isset($_POST['decote'])){ echo $_POST['decote']; } ?>">
+        <option selected="selected">Selectionnez</option>
+        <?php foreach ($decote as $k => $d) { ?>
+            <option value="<?php echo $d['nometat']; ?>"><?php echo $d['nometat']; ?></option>
+        <?php } ?>
+    </select>
+
     <br>
     <button class="button-primary" type="submit">Valider</button>
     <a href="?c=exemplaire"><button class="button-primary" type="button">Retour</button></a>
+    <?php echo display_message(); ?>
 </form>

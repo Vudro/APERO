@@ -14,4 +14,5 @@
 
     <button class="button-primary" type="submit">Enregistrer</button>
     <a href="?c=listeFamille"><button class="button-primary" type="button">Liste des familles</button></a>
+    <?php echo display_message(); ?>
 </form>

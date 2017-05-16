@@ -11,26 +11,9 @@
         <?php } ?>
     </select>
 
-    <label for="remboursement">Remboursement : ajouter condition sur famille sélectionné</label>
-<!--  Tableau devant permettre l'affichage des remboursements à la famille sélectionné
-  Manque à récupérer l'id de la famille sélectionnée au dessus pour afficher uniquement les remboursements de cette famille -->
-    <table>
-        <tr>
-            <td>Nom Livre</td>
-            <td>Prix</td>
-        </tr>
-        <tr>
-            <td>bla</td>
-            <td><?php echo $data; ?></td>
-        </tr>
+    <button class="button-primary" type="submit">Valider</button>
+    <?php if (isset($nom) && !empty($nom)){echo "Nom de famille sélectionné : $nom ";} ?>
 
-<!--        <tbody>-->
-<!--        --><?php //foreach($remboursement as $k => $d){ ?>
-<!--            <tr>-->
-<!--                <td>--><?php //echo $d['nomlivre']; ?><!--</td>-->
-<!--                <td>--><?php //echo $d['prixneuf']; ?><!--</td>-->
-<!--            </tr>-->
-<!--        --><?php //} ?>
-<!--        </tbody>-->
-    </table>
+    <label for="remboursement">Gain de la vente de livre : <?php if (isset($vendu) && !empty($vendu)){echo $vendu;} ?>€</label>
+    <label>Somme dû à la famille : <?php if (isset($rendu) && !empty($rendu)){echo $rendu;} ?></label>
 </form>

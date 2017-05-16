@@ -20,4 +20,5 @@
     <br>
     <button class="button-primary" type="submit">Envoyer</button>
     <a href="?c=matiere"> <button class="button-primary" type="button">Ajouter matière</button></a>
+    <?php echo display_message(); ?>
 </form>
