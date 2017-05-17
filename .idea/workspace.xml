@@ -4,20 +4,8 @@
     <list default="true" id="c4c94bb5-7262-4c3e-bf17-3663c6cb115a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterFamille.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterFamille.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterLIvre.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterLIvre.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/controls/c_exemplaire.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/controls/c_exemplaire.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/controls/c_remboursement.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/controls/c_remboursement.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/controls/c_vente.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/controls/c_vente.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/models/m_db.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/models/m_db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/vues/affecterEnfant/v_affecterEnfant.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/affecterEnfant/v_affecterEnfant.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/vues/affecterFamille/v_affecterFamile.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/affecterFamille/v_affecterFamile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/vues/affecterLivre/v_affecterLivre.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/affecterLivre/v_affecterLivre.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/vues/enfant/v_enfant.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/enfant/v_enfant.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/vues/exemplaire/v_exemplaire.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/exemplaire/v_exemplaire.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/vues/famille/v_famille.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/famille/v_famille.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/vues/livre/v_livre.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/livre/v_livre.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/vues/remboursement/v_remboursement.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/remboursement/v_remboursement.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aperov2/webdev/vues/vente/v_vente.php" afterPath="$PROJECT_DIR$/Aperov2/webdev/vues/vente/v_vente.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,21 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="v_exemplaire.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/exemplaire/v_exemplaire.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="v_affecterFamile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="v_affecterFamile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/affecterFamille/v_affecterFamile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="108" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="108" />
+            <state relative-caret-position="442">
+              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -55,58 +33,8 @@
       <file leaf-file-name="c_exemplaire.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_exemplaire.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="c_vente.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_vente.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="v_remboursement.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/remboursement/v_remboursement.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="c_remboursement.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_remboursement.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="v_affecterLivre.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/affecterLivre/v_affecterLivre.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="c_affecterLIvre.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterLIvre.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -115,112 +43,97 @@
       <file leaf-file-name="m_db.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aperov2/webdev/models/m_db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="29" />
+            <state relative-caret-position="502">
+              <caret line="246" column="58" lean-forward="false" selection-start-line="246" selection-start-column="58" selection-end-line="246" selection-end-column="58" />
               <folding>
-                <marker date="1494977862727" expanded="true" signature="791:935" ph="SELECT Enfan... Famille" />
-                <marker date="1494977862727" expanded="true" signature="1016:1036" ph="SELECT Enfan... Classe" />
-                <marker date="1494977862727" expanded="true" signature="1016:1060" ph="SELECT * FRO... enfant" />
-                <marker date="1494977862727" expanded="true" signature="1148:1175" ph="SELECT * FRO... etablissement" />
-                <marker date="1494977862727" expanded="true" signature="1261:1275" ph="SELECT * FRO... classe" />
-                <marker date="1494977862727" expanded="true" signature="1261:1280" ph="SELECT * FRO... livre" />
-                <marker date="1494977862727" expanded="true" signature="1362:1383" ph="SELECT * FRO... matiere" />
-                <marker date="1494977862727" expanded="true" signature="1464:1504" ph="SELECT * FRO... classe" />
-                <marker date="1494977862727" expanded="true" signature="1586:1621" ph="SELECT DISTI... classe" />
-                <marker date="1494977862727" expanded="true" signature="1701:1720" ph="SELECT Livre... Livre" />
-                <marker date="1494977862727" expanded="true" signature="1980:2022" ph="select id_li... livre" />
-                <marker date="1494977862727" expanded="true" signature="2075:2122" ph="select idfam... famille" />
-                <marker date="1494977862727" expanded="true" signature="2303:2379" ph="INSERT INTO exemplaire... " />
-                <marker date="1494977862727" expanded="true" signature="2303:2392" ph="INSERT INTO exemplaire... " />
-                <marker date="1494977862727" expanded="true" signature="2303:2393" ph="INSERT INTO exemplaire... " />
-                <marker date="1494977862727" expanded="true" signature="2303:2408" ph="INSERT INTO exemplaire... " />
-                <marker date="1494977862727" expanded="true" signature="2303:2409" ph="INSERT INTO exemplaire... " />
-                <marker date="1494977862727" expanded="true" signature="2303:2422" ph="INSERT INTO exemplaire... " />
-                <marker date="1494977862727" expanded="true" signature="2303:2423" ph="INSERT INTO exemplaire... " />
-                <marker date="1494977862727" expanded="true" signature="2303:2436" ph="INSERT INTO exemplaire... " />
-                <marker date="1494977862727" expanded="true" signature="2518:2674" ph="SELECT * FRO... exemplaire" />
-                <marker date="1494977862727" expanded="true" signature="2806:2962" ph="SELECT * FRO... exemplaire" />
-                <marker date="1494977862727" expanded="true" signature="2806:2978" ph="SELECT * FRO... exemplaire" />
-                <marker date="1494977862727" expanded="true" signature="3072:3219" ph="SELECT * FRO... exemplaire" />
-                <marker date="1494977862727" expanded="true" signature="3351:3498" ph="SELECT * FRO... exemplaire" />
-                <marker date="1494977862727" expanded="true" signature="3351:3514" ph="SELECT * FRO... exemplaire" />
-                <marker date="1494977862727" expanded="true" signature="3610:3624" ph="SELECT Livre... Livre" />
-                <marker date="1494977862727" expanded="true" signature="3610:3728" ph="SELECT * FRO... exemplaire" />
-                <marker date="1494977862727" expanded="true" signature="3610:3757" ph="SELECT * FRO... exemplaire" />
-                <marker date="1494977862727" expanded="true" signature="3891:4062" ph="SELECT * FRO... exemplaire" />
-                <marker date="1494977862727" expanded="true" signature="4156:4177" ph="SELECT Famil... Famille" />
-                <marker date="1494977862727" expanded="true" signature="4262:4286" ph="SELECT * FRO... exemplaire" />
-                <marker date="1494977862727" expanded="true" signature="4365:4383" ph="SELECT * FRO... etat" />
-                <marker date="1494977862727" expanded="true" signature="4467:4585" ph="select etat.... etat" />
-                <marker date="1494977862727" expanded="true" signature="4665:4697" ph="SELECT idfam... exemplaire" />
-                <marker date="1494977862727" expanded="true" signature="4828:4868" ph="INSERT INTO `matiere`... " />
-                <marker date="1494977862727" expanded="true" signature="4828:4880" ph="INSERT INTO `contact`... " />
-                <marker date="1494977862727" expanded="true" signature="4828:4881" ph="INSERT INTO matiere... " />
-                <marker date="1494977862727" expanded="true" signature="5190:5262" ph="INSERT INTO livre... " />
-                <marker date="1494977862727" expanded="true" signature="5190:5323" ph="INSERT INTO matiere... " />
-                <marker date="1494977862727" expanded="true" signature="5641:5857" ph="UPDATE livre... " />
-                <marker date="1494977862727" expanded="true" signature="5641:5932" ph="UPDATE livre... " />
-                <marker date="1494977862727" expanded="true" signature="5641:5967" ph="UPDATE livre... " />
-                <marker date="1494977862727" expanded="true" signature="5641:5980" ph="INSERT INTO livre... " />
-                <marker date="1494977862727" expanded="true" signature="6135:6206" ph="INSERT INTO matiere... " />
-                <marker date="1494977862727" expanded="true" signature="6674:6780" ph="INSERT INTO famille... " />
-                <marker date="1494977862727" expanded="true" signature="6674:6886" ph="INSERT INTO livre... " />
-                <marker date="1494977862727" expanded="true" signature="6974:7071" ph="SELECT * FRO... famille" />
-                <marker date="1494977862727" expanded="true" signature="7384:7526" ph="INSERT INTO enfant... " />
-                <marker date="1494977862727" expanded="true" signature="7708:7815" ph="UPDATE enfan... " />
-                <marker date="1494977862727" expanded="true" signature="7738:7785" ph="SELECT idfam... famille" />
-                <marker date="1494977862727" expanded="true" signature="8006:8068" ph="INSERT INTO classe... " />
-                <marker date="1494977862727" expanded="true" signature="8006:8069" ph="INSERT INTO classe... " />
-                <marker date="1494977862727" expanded="true" signature="8006:8082" ph="INSERT INTO classe... " />
-                <marker date="1494977862727" expanded="true" signature="8171:8221" ph="SELECT * FRO... classe" />
-                <marker date="1494977862727" expanded="true" signature="8474:8614" ph="UPDATE enfan... " />
-                <marker date="1494977862727" expanded="true" signature="8474:8638" ph="UPDATE class... " />
-                <marker date="1494977862727" expanded="true" signature="8510:8575" ph="SELECT idfam... famille" />
-                <marker date="1494977862727" expanded="true" signature="8913:9003" ph="update exemp... " />
-                <marker date="1494977862727" expanded="true" signature="8913:9080" ph="update exemp... " />
-                <marker date="1494977862727" expanded="true" signature="8913:9109" ph="update exemp... " />
-                <marker date="1494977862727" expanded="true" signature="8913:9158" ph="update exemp... " />
-                <marker date="1494977862727" expanded="true" signature="8913:9159" ph="insert into exemplaire... " />
-                <marker date="1494977862727" expanded="true" signature="8956:9003" ph="SELECT idfam... famille" />
-                <marker date="1494977862727" expanded="true" signature="9038:9080" ph="SELECT id_li... livre" />
-                <marker date="1494977862727" expanded="true" signature="9244:9366" ph="SELECT * fro... livre" />
-                <marker date="1494977862727" expanded="true" signature="9244:9386" ph="SELECT * fro... livre" />
-                <marker date="1494977862727" expanded="true" signature="9244:9394" ph="SELECT * fro... livre" />
-                <marker date="1494977862727" expanded="true" signature="9244:9402" ph="SELECT * fro... livre" />
-                <marker date="1494977862727" expanded="true" signature="9474:9556" ph="update exemp... " />
-                <marker date="1494977862727" expanded="true" signature="9745:9778" ph="select decot... etat" />
-                <marker date="1494977862727" expanded="true" signature="9830:9865" ph="select prixn... livre" />
-                <marker date="1494977862727" expanded="true" signature="10162:10273" ph="select * fro... famille" />
-                <marker date="1494977862727" expanded="true" signature="10162:10287" ph="select * fro... famille" />
+                <marker date="1495028341593" expanded="true" signature="791:935" ph="SELECT Enfan... Famille" />
+                <marker date="1495028341593" expanded="true" signature="1016:1036" ph="SELECT Enfan... Classe" />
+                <marker date="1495028341593" expanded="true" signature="1016:1060" ph="SELECT * FRO... enfant" />
+                <marker date="1495028341593" expanded="true" signature="1148:1175" ph="SELECT * FRO... etablissement" />
+                <marker date="1495028341593" expanded="true" signature="1261:1275" ph="SELECT * FRO... classe" />
+                <marker date="1495028341593" expanded="true" signature="1261:1280" ph="SELECT * FRO... livre" />
+                <marker date="1495028341593" expanded="true" signature="1362:1383" ph="SELECT * FRO... matiere" />
+                <marker date="1495028341593" expanded="true" signature="1464:1504" ph="SELECT * FRO... classe" />
+                <marker date="1495028341593" expanded="true" signature="1586:1621" ph="SELECT DISTI... classe" />
+                <marker date="1495028341593" expanded="true" signature="1701:1720" ph="SELECT Livre... Livre" />
+                <marker date="1495028341593" expanded="true" signature="1980:2022" ph="select id_li... livre" />
+                <marker date="1495028341593" expanded="true" signature="2075:2122" ph="select idfam... famille" />
+                <marker date="1495028341593" expanded="true" signature="2303:2397" ph="INSERT INTO exemplaire... " />
+                <marker date="1495028341593" expanded="true" signature="2303:2410" ph="INSERT INTO exemplaire... " />
+                <marker date="1495028341593" expanded="true" signature="2303:2411" ph="INSERT INTO exemplaire... " />
+                <marker date="1495028341593" expanded="true" signature="2303:2426" ph="INSERT INTO exemplaire... " />
+                <marker date="1495028341593" expanded="true" signature="2303:2427" ph="INSERT INTO exemplaire... " />
+                <marker date="1495028341593" expanded="true" signature="2303:2445" ph="INSERT INTO exemplaire... " />
+                <marker date="1495028341593" expanded="true" signature="2303:2446" ph="INSERT INTO exemplaire... " />
+                <marker date="1495028341593" expanded="true" signature="2303:2459" ph="INSERT INTO exemplaire... " />
+                <marker date="1495028341593" expanded="true" signature="2541:2697" ph="SELECT * FRO... exemplaire" />
+                <marker date="1495028341593" expanded="true" signature="2829:2985" ph="SELECT * FRO... exemplaire" />
+                <marker date="1495028341593" expanded="true" signature="2829:3001" ph="SELECT * FRO... exemplaire" />
+                <marker date="1495028341593" expanded="true" signature="3095:3242" ph="SELECT * FRO... exemplaire" />
+                <marker date="1495028341593" expanded="true" signature="3374:3521" ph="SELECT * FRO... exemplaire" />
+                <marker date="1495028341593" expanded="true" signature="3374:3537" ph="SELECT * FRO... exemplaire" />
+                <marker date="1495028341593" expanded="true" signature="3633:3647" ph="SELECT Livre... Livre" />
+                <marker date="1495028341593" expanded="true" signature="3633:3751" ph="SELECT * FRO... exemplaire" />
+                <marker date="1495028341593" expanded="true" signature="3633:3780" ph="SELECT * FRO... exemplaire" />
+                <marker date="1495028341593" expanded="true" signature="3914:4085" ph="SELECT * FRO... exemplaire" />
+                <marker date="1495028341593" expanded="true" signature="4179:4200" ph="SELECT Famil... Famille" />
+                <marker date="1495028341593" expanded="true" signature="4285:4309" ph="SELECT * FRO... exemplaire" />
+                <marker date="1495028341593" expanded="true" signature="4388:4406" ph="SELECT * FRO... etat" />
+                <marker date="1495028341593" expanded="true" signature="4491:4618" ph="select etat.... etat" />
+                <marker date="1495028341593" expanded="true" signature="4697:4729" ph="SELECT idfam... exemplaire" />
+                <marker date="1495028341593" expanded="true" signature="4860:4900" ph="INSERT INTO `matiere`... " />
+                <marker date="1495028341593" expanded="true" signature="4860:4912" ph="INSERT INTO `contact`... " />
+                <marker date="1495028341593" expanded="true" signature="4860:4913" ph="INSERT INTO matiere... " />
+                <marker date="1495028341593" expanded="true" signature="5222:5294" ph="INSERT INTO livre... " />
+                <marker date="1495028341593" expanded="true" signature="5222:5355" ph="INSERT INTO matiere... " />
+                <marker date="1495028341593" expanded="true" signature="5673:5889" ph="UPDATE livre... " />
+                <marker date="1495028341593" expanded="true" signature="5673:5964" ph="UPDATE livre... " />
+                <marker date="1495028341593" expanded="true" signature="5673:5999" ph="UPDATE livre... " />
+                <marker date="1495028341593" expanded="true" signature="5673:6012" ph="INSERT INTO livre... " />
+                <marker date="1495028341593" expanded="true" signature="6167:6238" ph="INSERT INTO matiere... " />
+                <marker date="1495028341593" expanded="true" signature="6706:6812" ph="INSERT INTO famille... " />
+                <marker date="1495028341593" expanded="true" signature="6706:6918" ph="INSERT INTO livre... " />
+                <marker date="1495028341593" expanded="true" signature="7006:7103" ph="SELECT * FRO... famille" />
+                <marker date="1495028341593" expanded="true" signature="7416:7558" ph="INSERT INTO enfant... " />
+                <marker date="1495028341593" expanded="true" signature="7740:7847" ph="UPDATE enfan... " />
+                <marker date="1495028341593" expanded="true" signature="7770:7817" ph="SELECT idfam... famille" />
+                <marker date="1495028341593" expanded="true" signature="8038:8100" ph="INSERT INTO classe... " />
+                <marker date="1495028341593" expanded="true" signature="8038:8101" ph="INSERT INTO classe... " />
+                <marker date="1495028341593" expanded="true" signature="8038:8114" ph="INSERT INTO classe... " />
+                <marker date="1495028341593" expanded="true" signature="8203:8253" ph="SELECT * FRO... classe" />
+                <marker date="1495028341593" expanded="true" signature="8506:8646" ph="UPDATE enfan... " />
+                <marker date="1495028341593" expanded="true" signature="8506:8670" ph="UPDATE class... " />
+                <marker date="1495028341593" expanded="true" signature="8542:8607" ph="SELECT idfam... famille" />
+                <marker date="1495028341593" expanded="true" signature="8945:9035" ph="update exemp... " />
+                <marker date="1495028341593" expanded="true" signature="8945:9112" ph="update exemp... " />
+                <marker date="1495028341593" expanded="true" signature="8945:9141" ph="update exemp... " />
+                <marker date="1495028341593" expanded="true" signature="8945:9190" ph="update exemp... " />
+                <marker date="1495028341593" expanded="true" signature="8945:9191" ph="insert into exemplaire... " />
+                <marker date="1495028341593" expanded="true" signature="8988:9035" ph="SELECT idfam... famille" />
+                <marker date="1495028341593" expanded="true" signature="9070:9112" ph="SELECT id_li... livre" />
+                <marker date="1495028341593" expanded="true" signature="9460:9621" ph="select * fro... exemplaire" />
+                <marker date="1495028341593" expanded="true" signature="9473:9621" ph="update exemp... " />
+                <marker date="1495028341593" expanded="true" signature="9501:9543" ph="SELECT id_li... livre" />
+                <marker date="1495028341593" expanded="true" signature="9707:9829" ph="SELECT * fro... livre" />
+                <marker date="1495028341593" expanded="true" signature="9707:9849" ph="SELECT * fro... livre" />
+                <marker date="1495028341593" expanded="true" signature="9707:9857" ph="SELECT * fro... livre" />
+                <marker date="1495028341593" expanded="true" signature="9707:9865" ph="SELECT * fro... livre" />
+                <marker date="1495028341593" expanded="true" signature="9937:10019" ph="update exemp... " />
+                <marker date="1495028341593" expanded="true" signature="10208:10241" ph="select decot... etat" />
+                <marker date="1495028341593" expanded="true" signature="10293:10328" ph="select prixn... livre" />
+                <marker date="1495028341593" expanded="true" signature="10625:10736" ph="select * fro... famille" />
+                <marker date="1495028341593" expanded="true" signature="10625:10750" ph="select * fro... famille" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="v_vente.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/vente/v_vente.php">
+      <file leaf-file-name="c_affecterFamille.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterFamille.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-696">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <marker date="1494972729697" expanded="true" signature="857:1036" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="1050:1291" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="1063:1134" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="1151:1291" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="1262:1291" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="1609:1788" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="1802:2065" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="1815:1886" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="1903:2065" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="2026:2063" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="2026:2065" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="2390:2586" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="2600:2863" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="2613:2684" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="2701:2863" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="2824:2861" ph="..." />
-                <marker date="1494972729697" expanded="true" signature="2824:2863" ph="..." />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="85" lean-forward="true" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -235,6 +148,7 @@
       <find>famille</find>
       <find>afficherFa</find>
       <find>etat</find>
+      <find>afficherClasse</find>
     </findStrings>
     <replaceStrings>
       <replace>famille</replace>
@@ -282,21 +196,21 @@
         <option value="$PROJECT_DIR$/Aperov2/webdev/vues/ajoutEtablissement/v_ajoutEtablissement.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/vues/listeFamille/v_listeFamille.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/vues/matiere/v_matiere.php" />
-        <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterFamille.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/vues/affecterEnfant/v_affecterEnfant.php" />
-        <option value="$PROJECT_DIR$/Aperov2/webdev/vues/affecterFamille/v_affecterFamile.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/vues/enfant/v_enfant.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/vues/famille/v_famille.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/vues/livre/v_livre.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/vues/exemplaire/v_exemplaire.php" />
-        <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_exemplaire.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_vente.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/vues/vente/v_vente.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/vues/remboursement/v_remboursement.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_remboursement.php" />
-        <option value="$PROJECT_DIR$/Aperov2/webdev/models/m_db.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterLIvre.php" />
         <option value="$PROJECT_DIR$/Aperov2/webdev/vues/affecterLivre/v_affecterLivre.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_exemplaire.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/vues/affecterFamille/v_affecterFamile.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/models/m_db.php" />
+        <option value="$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterFamille.php" />
       </list>
     </option>
   </component>
@@ -328,7 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -796,6 +709,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -888,21 +802,24 @@
       <workItem from="1494674229905" duration="43169000" />
       <workItem from="1494750988611" duration="8136000" />
       <workItem from="1494959031970" duration="18751000" />
+      <workItem from="1494979055364" duration="71000" />
+      <workItem from="1495006558402" duration="2160000" />
+      <workItem from="1495015819785" duration="4259000" />
+      <workItem from="1495027734115" duration="950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80349000" />
+    <option name="totallyTimeSpent" value="87789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19722815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3322185" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -913,6 +830,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -932,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="1185" column="20" lean-forward="false" selection-start-line="1185" selection-start-column="20" selection-end-line="1185" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="996" column="9" lean-forward="false" selection-start-line="996" selection-start-column="9" selection-end-line="996" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="950" column="9" lean-forward="false" selection-start-line="950" selection-start-column="9" selection-end-line="950" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,27 +919,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="240" column="9" lean-forward="false" selection-start-line="240" selection-start-column="9" selection-end-line="240" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterEnfant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterClasse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_ajoutClasse.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="57" />
@@ -1093,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,23 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterFamille.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/affecterClasse/v_affecterClasse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,7 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,7 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="68" lean-forward="false" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,7 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,7 +1061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="34" column="89" lean-forward="true" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,42 +1074,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/exemplaire/v_exemplaire.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="595">
+          <caret line="35" column="60" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/vente/v_vente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-696">
+        <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1494972729697" expanded="true" signature="857:1036" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="1050:1291" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="1063:1134" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="1151:1291" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="1262:1291" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="1609:1788" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="1802:2065" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="1815:1886" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="1903:2065" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="2026:2063" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="2026:2065" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="2390:2586" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="2600:2863" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="2613:2684" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="2701:2863" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="2824:2861" ph="..." />
-            <marker date="1494972729697" expanded="true" signature="2824:2863" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_vente.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1246,8 +1098,7 @@
     <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/remboursement/v_remboursement.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-          <folding />
+          <caret line="14" column="89" lean-forward="false" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
         </state>
       </provider>
     </entry>
@@ -1255,7 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,117 +1117,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/models/m_db.php">
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/affecterLivre/v_affecterLivre.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="29" />
-          <folding>
-            <marker date="1494977862727" expanded="true" signature="791:935" ph="SELECT Enfan... Famille" />
-            <marker date="1494977862727" expanded="true" signature="1016:1036" ph="SELECT Enfan... Classe" />
-            <marker date="1494977862727" expanded="true" signature="1016:1060" ph="SELECT * FRO... enfant" />
-            <marker date="1494977862727" expanded="true" signature="1148:1175" ph="SELECT * FRO... etablissement" />
-            <marker date="1494977862727" expanded="true" signature="1261:1275" ph="SELECT * FRO... classe" />
-            <marker date="1494977862727" expanded="true" signature="1261:1280" ph="SELECT * FRO... livre" />
-            <marker date="1494977862727" expanded="true" signature="1362:1383" ph="SELECT * FRO... matiere" />
-            <marker date="1494977862727" expanded="true" signature="1464:1504" ph="SELECT * FRO... classe" />
-            <marker date="1494977862727" expanded="true" signature="1586:1621" ph="SELECT DISTI... classe" />
-            <marker date="1494977862727" expanded="true" signature="1701:1720" ph="SELECT Livre... Livre" />
-            <marker date="1494977862727" expanded="true" signature="1980:2022" ph="select id_li... livre" />
-            <marker date="1494977862727" expanded="true" signature="2075:2122" ph="select idfam... famille" />
-            <marker date="1494977862727" expanded="true" signature="2303:2379" ph="INSERT INTO exemplaire... " />
-            <marker date="1494977862727" expanded="true" signature="2303:2392" ph="INSERT INTO exemplaire... " />
-            <marker date="1494977862727" expanded="true" signature="2303:2393" ph="INSERT INTO exemplaire... " />
-            <marker date="1494977862727" expanded="true" signature="2303:2408" ph="INSERT INTO exemplaire... " />
-            <marker date="1494977862727" expanded="true" signature="2303:2409" ph="INSERT INTO exemplaire... " />
-            <marker date="1494977862727" expanded="true" signature="2303:2422" ph="INSERT INTO exemplaire... " />
-            <marker date="1494977862727" expanded="true" signature="2303:2423" ph="INSERT INTO exemplaire... " />
-            <marker date="1494977862727" expanded="true" signature="2303:2436" ph="INSERT INTO exemplaire... " />
-            <marker date="1494977862727" expanded="true" signature="2518:2674" ph="SELECT * FRO... exemplaire" />
-            <marker date="1494977862727" expanded="true" signature="2806:2962" ph="SELECT * FRO... exemplaire" />
-            <marker date="1494977862727" expanded="true" signature="2806:2978" ph="SELECT * FRO... exemplaire" />
-            <marker date="1494977862727" expanded="true" signature="3072:3219" ph="SELECT * FRO... exemplaire" />
-            <marker date="1494977862727" expanded="true" signature="3351:3498" ph="SELECT * FRO... exemplaire" />
-            <marker date="1494977862727" expanded="true" signature="3351:3514" ph="SELECT * FRO... exemplaire" />
-            <marker date="1494977862727" expanded="true" signature="3610:3624" ph="SELECT Livre... Livre" />
-            <marker date="1494977862727" expanded="true" signature="3610:3728" ph="SELECT * FRO... exemplaire" />
-            <marker date="1494977862727" expanded="true" signature="3610:3757" ph="SELECT * FRO... exemplaire" />
-            <marker date="1494977862727" expanded="true" signature="3891:4062" ph="SELECT * FRO... exemplaire" />
-            <marker date="1494977862727" expanded="true" signature="4156:4177" ph="SELECT Famil... Famille" />
-            <marker date="1494977862727" expanded="true" signature="4262:4286" ph="SELECT * FRO... exemplaire" />
-            <marker date="1494977862727" expanded="true" signature="4365:4383" ph="SELECT * FRO... etat" />
-            <marker date="1494977862727" expanded="true" signature="4467:4585" ph="select etat.... etat" />
-            <marker date="1494977862727" expanded="true" signature="4665:4697" ph="SELECT idfam... exemplaire" />
-            <marker date="1494977862727" expanded="true" signature="4828:4868" ph="INSERT INTO `matiere`... " />
-            <marker date="1494977862727" expanded="true" signature="4828:4880" ph="INSERT INTO `contact`... " />
-            <marker date="1494977862727" expanded="true" signature="4828:4881" ph="INSERT INTO matiere... " />
-            <marker date="1494977862727" expanded="true" signature="5190:5262" ph="INSERT INTO livre... " />
-            <marker date="1494977862727" expanded="true" signature="5190:5323" ph="INSERT INTO matiere... " />
-            <marker date="1494977862727" expanded="true" signature="5641:5857" ph="UPDATE livre... " />
-            <marker date="1494977862727" expanded="true" signature="5641:5932" ph="UPDATE livre... " />
-            <marker date="1494977862727" expanded="true" signature="5641:5967" ph="UPDATE livre... " />
-            <marker date="1494977862727" expanded="true" signature="5641:5980" ph="INSERT INTO livre... " />
-            <marker date="1494977862727" expanded="true" signature="6135:6206" ph="INSERT INTO matiere... " />
-            <marker date="1494977862727" expanded="true" signature="6674:6780" ph="INSERT INTO famille... " />
-            <marker date="1494977862727" expanded="true" signature="6674:6886" ph="INSERT INTO livre... " />
-            <marker date="1494977862727" expanded="true" signature="6974:7071" ph="SELECT * FRO... famille" />
-            <marker date="1494977862727" expanded="true" signature="7384:7526" ph="INSERT INTO enfant... " />
-            <marker date="1494977862727" expanded="true" signature="7708:7815" ph="UPDATE enfan... " />
-            <marker date="1494977862727" expanded="true" signature="7738:7785" ph="SELECT idfam... famille" />
-            <marker date="1494977862727" expanded="true" signature="8006:8068" ph="INSERT INTO classe... " />
-            <marker date="1494977862727" expanded="true" signature="8006:8069" ph="INSERT INTO classe... " />
-            <marker date="1494977862727" expanded="true" signature="8006:8082" ph="INSERT INTO classe... " />
-            <marker date="1494977862727" expanded="true" signature="8171:8221" ph="SELECT * FRO... classe" />
-            <marker date="1494977862727" expanded="true" signature="8474:8614" ph="UPDATE enfan... " />
-            <marker date="1494977862727" expanded="true" signature="8474:8638" ph="UPDATE class... " />
-            <marker date="1494977862727" expanded="true" signature="8510:8575" ph="SELECT idfam... famille" />
-            <marker date="1494977862727" expanded="true" signature="8913:9003" ph="update exemp... " />
-            <marker date="1494977862727" expanded="true" signature="8913:9080" ph="update exemp... " />
-            <marker date="1494977862727" expanded="true" signature="8913:9109" ph="update exemp... " />
-            <marker date="1494977862727" expanded="true" signature="8913:9158" ph="update exemp... " />
-            <marker date="1494977862727" expanded="true" signature="8913:9159" ph="insert into exemplaire... " />
-            <marker date="1494977862727" expanded="true" signature="8956:9003" ph="SELECT idfam... famille" />
-            <marker date="1494977862727" expanded="true" signature="9038:9080" ph="SELECT id_li... livre" />
-            <marker date="1494977862727" expanded="true" signature="9244:9366" ph="SELECT * fro... livre" />
-            <marker date="1494977862727" expanded="true" signature="9244:9386" ph="SELECT * fro... livre" />
-            <marker date="1494977862727" expanded="true" signature="9244:9394" ph="SELECT * fro... livre" />
-            <marker date="1494977862727" expanded="true" signature="9244:9402" ph="SELECT * fro... livre" />
-            <marker date="1494977862727" expanded="true" signature="9474:9556" ph="update exemp... " />
-            <marker date="1494977862727" expanded="true" signature="9745:9778" ph="select decot... etat" />
-            <marker date="1494977862727" expanded="true" signature="9830:9865" ph="select prixn... livre" />
-            <marker date="1494977862727" expanded="true" signature="10162:10273" ph="select * fro... famille" />
-            <marker date="1494977862727" expanded="true" signature="10162:10287" ph="select * fro... famille" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_ajoutClasse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterLIvre.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterClasse.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="16" />
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/affecterLivre/v_affecterLivre.php">
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/affecterClasse/v_affecterClasse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_exemplaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="289">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aperov2/webdev/vues/affecterFamille/v_affecterFamile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="108" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="108" />
+        <state relative-caret-position="442">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_exemplaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/models/m_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="246" column="58" lean-forward="false" selection-start-line="246" selection-start-column="58" selection-end-line="246" selection-end-column="58" />
+          <folding>
+            <marker date="1495028341593" expanded="true" signature="791:935" ph="SELECT Enfan... Famille" />
+            <marker date="1495028341593" expanded="true" signature="1016:1036" ph="SELECT Enfan... Classe" />
+            <marker date="1495028341593" expanded="true" signature="1016:1060" ph="SELECT * FRO... enfant" />
+            <marker date="1495028341593" expanded="true" signature="1148:1175" ph="SELECT * FRO... etablissement" />
+            <marker date="1495028341593" expanded="true" signature="1261:1275" ph="SELECT * FRO... classe" />
+            <marker date="1495028341593" expanded="true" signature="1261:1280" ph="SELECT * FRO... livre" />
+            <marker date="1495028341593" expanded="true" signature="1362:1383" ph="SELECT * FRO... matiere" />
+            <marker date="1495028341593" expanded="true" signature="1464:1504" ph="SELECT * FRO... classe" />
+            <marker date="1495028341593" expanded="true" signature="1586:1621" ph="SELECT DISTI... classe" />
+            <marker date="1495028341593" expanded="true" signature="1701:1720" ph="SELECT Livre... Livre" />
+            <marker date="1495028341593" expanded="true" signature="1980:2022" ph="select id_li... livre" />
+            <marker date="1495028341593" expanded="true" signature="2075:2122" ph="select idfam... famille" />
+            <marker date="1495028341593" expanded="true" signature="2303:2397" ph="INSERT INTO exemplaire... " />
+            <marker date="1495028341593" expanded="true" signature="2303:2410" ph="INSERT INTO exemplaire... " />
+            <marker date="1495028341593" expanded="true" signature="2303:2411" ph="INSERT INTO exemplaire... " />
+            <marker date="1495028341593" expanded="true" signature="2303:2426" ph="INSERT INTO exemplaire... " />
+            <marker date="1495028341593" expanded="true" signature="2303:2427" ph="INSERT INTO exemplaire... " />
+            <marker date="1495028341593" expanded="true" signature="2303:2445" ph="INSERT INTO exemplaire... " />
+            <marker date="1495028341593" expanded="true" signature="2303:2446" ph="INSERT INTO exemplaire... " />
+            <marker date="1495028341593" expanded="true" signature="2303:2459" ph="INSERT INTO exemplaire... " />
+            <marker date="1495028341593" expanded="true" signature="2541:2697" ph="SELECT * FRO... exemplaire" />
+            <marker date="1495028341593" expanded="true" signature="2829:2985" ph="SELECT * FRO... exemplaire" />
+            <marker date="1495028341593" expanded="true" signature="2829:3001" ph="SELECT * FRO... exemplaire" />
+            <marker date="1495028341593" expanded="true" signature="3095:3242" ph="SELECT * FRO... exemplaire" />
+            <marker date="1495028341593" expanded="true" signature="3374:3521" ph="SELECT * FRO... exemplaire" />
+            <marker date="1495028341593" expanded="true" signature="3374:3537" ph="SELECT * FRO... exemplaire" />
+            <marker date="1495028341593" expanded="true" signature="3633:3647" ph="SELECT Livre... Livre" />
+            <marker date="1495028341593" expanded="true" signature="3633:3751" ph="SELECT * FRO... exemplaire" />
+            <marker date="1495028341593" expanded="true" signature="3633:3780" ph="SELECT * FRO... exemplaire" />
+            <marker date="1495028341593" expanded="true" signature="3914:4085" ph="SELECT * FRO... exemplaire" />
+            <marker date="1495028341593" expanded="true" signature="4179:4200" ph="SELECT Famil... Famille" />
+            <marker date="1495028341593" expanded="true" signature="4285:4309" ph="SELECT * FRO... exemplaire" />
+            <marker date="1495028341593" expanded="true" signature="4388:4406" ph="SELECT * FRO... etat" />
+            <marker date="1495028341593" expanded="true" signature="4491:4618" ph="select etat.... etat" />
+            <marker date="1495028341593" expanded="true" signature="4697:4729" ph="SELECT idfam... exemplaire" />
+            <marker date="1495028341593" expanded="true" signature="4860:4900" ph="INSERT INTO `matiere`... " />
+            <marker date="1495028341593" expanded="true" signature="4860:4912" ph="INSERT INTO `contact`... " />
+            <marker date="1495028341593" expanded="true" signature="4860:4913" ph="INSERT INTO matiere... " />
+            <marker date="1495028341593" expanded="true" signature="5222:5294" ph="INSERT INTO livre... " />
+            <marker date="1495028341593" expanded="true" signature="5222:5355" ph="INSERT INTO matiere... " />
+            <marker date="1495028341593" expanded="true" signature="5673:5889" ph="UPDATE livre... " />
+            <marker date="1495028341593" expanded="true" signature="5673:5964" ph="UPDATE livre... " />
+            <marker date="1495028341593" expanded="true" signature="5673:5999" ph="UPDATE livre... " />
+            <marker date="1495028341593" expanded="true" signature="5673:6012" ph="INSERT INTO livre... " />
+            <marker date="1495028341593" expanded="true" signature="6167:6238" ph="INSERT INTO matiere... " />
+            <marker date="1495028341593" expanded="true" signature="6706:6812" ph="INSERT INTO famille... " />
+            <marker date="1495028341593" expanded="true" signature="6706:6918" ph="INSERT INTO livre... " />
+            <marker date="1495028341593" expanded="true" signature="7006:7103" ph="SELECT * FRO... famille" />
+            <marker date="1495028341593" expanded="true" signature="7416:7558" ph="INSERT INTO enfant... " />
+            <marker date="1495028341593" expanded="true" signature="7740:7847" ph="UPDATE enfan... " />
+            <marker date="1495028341593" expanded="true" signature="7770:7817" ph="SELECT idfam... famille" />
+            <marker date="1495028341593" expanded="true" signature="8038:8100" ph="INSERT INTO classe... " />
+            <marker date="1495028341593" expanded="true" signature="8038:8101" ph="INSERT INTO classe... " />
+            <marker date="1495028341593" expanded="true" signature="8038:8114" ph="INSERT INTO classe... " />
+            <marker date="1495028341593" expanded="true" signature="8203:8253" ph="SELECT * FRO... classe" />
+            <marker date="1495028341593" expanded="true" signature="8506:8646" ph="UPDATE enfan... " />
+            <marker date="1495028341593" expanded="true" signature="8506:8670" ph="UPDATE class... " />
+            <marker date="1495028341593" expanded="true" signature="8542:8607" ph="SELECT idfam... famille" />
+            <marker date="1495028341593" expanded="true" signature="8945:9035" ph="update exemp... " />
+            <marker date="1495028341593" expanded="true" signature="8945:9112" ph="update exemp... " />
+            <marker date="1495028341593" expanded="true" signature="8945:9141" ph="update exemp... " />
+            <marker date="1495028341593" expanded="true" signature="8945:9190" ph="update exemp... " />
+            <marker date="1495028341593" expanded="true" signature="8945:9191" ph="insert into exemplaire... " />
+            <marker date="1495028341593" expanded="true" signature="8988:9035" ph="SELECT idfam... famille" />
+            <marker date="1495028341593" expanded="true" signature="9070:9112" ph="SELECT id_li... livre" />
+            <marker date="1495028341593" expanded="true" signature="9460:9621" ph="select * fro... exemplaire" />
+            <marker date="1495028341593" expanded="true" signature="9473:9621" ph="update exemp... " />
+            <marker date="1495028341593" expanded="true" signature="9501:9543" ph="SELECT id_li... livre" />
+            <marker date="1495028341593" expanded="true" signature="9707:9829" ph="SELECT * fro... livre" />
+            <marker date="1495028341593" expanded="true" signature="9707:9849" ph="SELECT * fro... livre" />
+            <marker date="1495028341593" expanded="true" signature="9707:9857" ph="SELECT * fro... livre" />
+            <marker date="1495028341593" expanded="true" signature="9707:9865" ph="SELECT * fro... livre" />
+            <marker date="1495028341593" expanded="true" signature="9937:10019" ph="update exemp... " />
+            <marker date="1495028341593" expanded="true" signature="10208:10241" ph="select decot... etat" />
+            <marker date="1495028341593" expanded="true" signature="10293:10328" ph="select prixn... livre" />
+            <marker date="1495028341593" expanded="true" signature="10625:10736" ph="select * fro... famille" />
+            <marker date="1495028341593" expanded="true" signature="10625:10750" ph="select * fro... famille" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aperov2/webdev/controls/c_affecterFamille.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="85" lean-forward="true" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
           <folding />
         </state>
       </provider>

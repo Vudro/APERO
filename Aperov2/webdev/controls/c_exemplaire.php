@@ -13,6 +13,7 @@ switch($_action) {
         if (isset($_POST['nomLivre']) && isset($_POST['nomEtat']) && isset($_POST['familleVente'])) {
             if (!empty($_POST['nomLivre']) && !empty($_POST['nomEtat'])&& !empty($_POST['familleVente'])) {
                 $DB->exemplaireFamille($_POST['nomLivre'], $_POST['nomEtat'], $_POST['familleVente']);
+                $DB->getLastQuery();
                 $result=$DB->prixExemplaire($_POST['nomLivre'], $_POST['nomEtat']);
                 global $var;
                 $var=$result;
